@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mb-4 mt-5">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 p-4 bg-success text-light ">
+                <div> 
+                    <label for="">X</label>
+                    <input type="text" class="x_field form-control">
+                </div>
+            
+                <div>
+                    <label for="">Y</label>
+                    <input type="text"  class="y_field form-control">
+                </div>
+                <div>
+                    <button class="submit btn btn-primary mt-3">Submit</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <button class="btn-block btn-warning btn-lg rounded-0" style= "cursor: initial">Calcuation</button>
+                <table class="total table table-bordered" style="margin-bottom : 20px">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>N</th>
+                            <th>SX</th>
+                            <th>SY</th>
+                            <th>SXY</th>
+                            <th>SX2</th>
+                            <th>SY2</th>
+                            <th>R</th>
+                        </tr>
+                    </thead>
+
+                    <tr>
+                        <td class="n">0</td>
+                        <td class="sx">0</td>
+                        <td class="sy">0</td>
+                        <td class="sxy">0</td>
+                        <td class="sx2">0</td>
+                        <td class="sy2">0</td>
+                        <td class="r">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--history table-->
+
+   <div class="container">
+       <div class="row">
+           <div class="col-12">
+            <button class="btn-block btn-warning btn-lg rounded-0"  style= "cursor: initial">History</button>
+            <div class="table-container">
+                <table class="history table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>X</th>
+                            <th>Y</th>
+                            <th>XY</th>
+                            <th>X2</th>
+                            <th>y2</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead> 
+                </table>
+            </div>
+           </div>
+           </div>
+       </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
